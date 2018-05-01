@@ -1,0 +1,470 @@
+/*  Defaults Start */
+*{margin:0;padding:0;box-sizing:border-box;}a{text-decoration:none;}li{list-style-type:none;}input{outline:none;}
+/* Defaults End */
+
+
+/* part-1 */
+.part1{
+	padding:0;
+}
+.part1>img{
+	width:100%;
+	height:400px;
+	object-fit:cover;
+}
+.topheadtxt{
+	text-align:center;
+	font-family: 'Courgette', cursive;
+	position: absolute;
+	left:50%;
+	transform: translate(-50%);
+	top:200px;
+	color:white;
+}
+
+
+
+
+
+
+/*  HEADer */
+
+
+.head{
+	line-height: 40px;
+	height:40px;
+	position:absolute;
+	top:0;
+	font-size:14px;
+	color:white;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+#headinner{
+	margin-left:10px;
+}
+#headinner > a{
+	padding:5px;
+	font-size:12px;
+	color:white;
+}
+.topheadright{
+	text-align:right;
+}
+
+
+
+/*NAVBAR */
+
+.nav{
+	font-size:14px;
+	width: 100%;
+	height:60px;
+	background-color:black;
+	margin:0px;
+	z-index:5;
+	position: absolute;
+	top:40px;
+	left:50%;
+	transform: translate(-50%);
+}
+.yes{
+	position:relative;
+	text-decoration:none;
+	cursor: pointer;
+	color:#878787!important;
+	text-align: center !important;
+
+}
+.ad:hover{
+	color:white;
+}
+.no{
+	width:43%;
+}
+ul{
+	position: absolute;
+	top:61px;
+	border-bottom:1px solid rgba(135,135,135 , 0,4);
+	display:none;
+	width: 160px;
+	background-color:black;
+	text-align: left;
+	font-size:10px;
+	
+}
+.yes{
+	padding:20px 10px;
+}
+
+.yes:hover ul{
+	display:block;
+}
+.ad{
+	width:10%;
+	color:#878787;
+	font-size:10px;
+}
+li  > a{
+	color:#878787;
+}
+li > a:hover{
+	color:white;
+}
+li{
+	padding:10px;
+	padding-left:5px;
+	border-bottom:2px solid rgba(135,135,135 , 0,9);
+}
+.no > img{
+	margin-top:18px;
+	margin-left:30px;
+}
+/*   HEADER AND NAVBAR ENDS HERE */
+
+
+
+
+@media only screen and (min-width:1200px){
+	.no{
+		width:52%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PART 2 appetixer */
+.pic{
+	margin-top:100px;
+}
+
+.pic > img{
+	padding:0;
+	height:100%;
+	width:100%;
+	object-fit:cover;
+}
+.designdiv > div{
+	padding:0;
+	height:6px;
+	border-top:solid 2px black;
+	border-bottom:2px solid black;
+	margin-top:20px;
+}
+.dash{
+	margin-top:15px;
+	border-bottom:2px dashed black;
+}
+.price{
+	padding:0;
+}
+.txt > .row{
+	margin-top:20px;
+}
+p > span{
+	font-size:14px;
+	color:#6C6C6C;
+}
+
+
+/* PART 2 appetizer END */
+
+
+/* brunches */
+
+.break{
+	margin-top: 50px;
+	padding: 0;
+	height: 600px;
+	position: relative;
+}
+.break>img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.layout{
+	position:absolute;
+	background-color: rgba(0,0,0,0.7);
+	top:0;
+	height: 600px;
+	padding: 0;
+}
+.breakfast > p{
+	color: white;
+	font-family: 'Courgette', cursive;
+}
+.breakfast > h1{
+	margin-top:300px;
+	color:white;
+	font-family: 'Courgette', cursive;
+}
+.breakfast{
+	text-align: center;
+	
+}
+
+
+/* brunches end */
+
+
+/*PART 3*/
+
+.menupic{
+	margin-top:80px;
+}
+
+.inside > img {
+	padding:0;
+	width:100%;
+}
+.setchange > h5{
+	margin-top:30px;
+}
+.setchange > p{
+	margin-top:30px;
+}
+.setchange > a {
+	color:#FFD44C !important;
+}
+.setchange > i{
+	margin-top:30px;
+}
+.inside >.row{
+	margin-top: 30px;
+}
+.inside{
+	margin-top: 30px;
+}
+
+.prchange >p{
+	margin-top: 30px;
+	color:#FFD44C;
+	font-size:26px;
+}
+/*PART 3 END */
+
+
+
+
+
+/* PART 4 Dinner */
+
+.part4{
+	margin-top: 50px;
+	padding: 0;
+	height: 600px;
+	position: relative;
+}
+.part4>img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.layout{
+	position:absolute;
+	background-color: rgba(0,0,0,0.7);
+	top:0;
+	height: 600px;
+	padding: 0;
+}
+.meat > p{
+	color: white;
+	font-family: 'Courgette', cursive;
+}
+.meat > h1{
+	margin-top:300px;
+	color:white;
+	font-family: 'Courgette', cursive;
+}
+.meat{
+	text-align: center;
+	
+}
+
+/* PART 4ENDS */
+
+
+
+
+
+
+/* part 5 other foods start */
+.relpic{
+	height: 100%;
+	width:100%;
+	position: relative;
+}
+.piclayout{
+	text-align: center;
+	width:92%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:15px;
+	background-color: rgba(0,0,0,0.5);
+}
+.relpic > img{
+	padding:0;
+	height: 100%;
+	width:100%;
+	object-fit: cover;
+}
+.others > .row{
+	margin-top:50px;
+}
+.piclayout > h5{
+	margin-top:150px;
+	color:white;
+}
+.piclayout > p{
+	color:white;
+}
+#priceclr{
+	color:#FFD44C !important;
+	font-size:24px;
+}
+/* part 5 other foods end */
+
+
+
+
+/* PART 6 DESSERt */
+
+
+.part6{
+	margin-top: 50px;
+	padding: 0;
+	height: 600px;
+	position: relative;
+}
+.part6>img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.layout{
+	position:absolute;
+	background-color: rgba(0,0,0,0.7);
+	top:0;
+	height: 600px;
+	padding: 0;
+}
+.dessert > h1{
+	margin-top:300px;
+	color:white;
+	font-family: 'Courgette', cursive;
+}
+.dessert{
+	text-align: center;
+	
+}
+
+/* PART 6 End*/
+
+
+/* PART 7 DESSERT INFO */
+#aboutdestxt{
+	color:gray;
+	font-size:12px;
+}
+#aboutprice{
+	color:#EEC118;
+	font-size:18px;
+}
+.dessertinfo{
+	margin-top:50px;
+}
+
+
+
+
+
+
+/* PART 7 DESERT info End */
+
+
+/* ENDING PART 1 STARTS */
+
+
+.endpart1{
+	height:400px;
+	margin-top:50px;
+	background-color:#232323;
+	color:white;
+}
+.linnerleft>h4{
+	margin-top:30px;
+}
+.linnerleft{
+	padding:0;
+}
+.rinnerright > h4{
+	margin-top:30px;
+}
+.generalright>h4{
+	margin-top:30px;
+}
+
+.linnerleft>p{
+	margin-top:30px;
+}
+.rinnerright >p{
+	margin-top:30px;
+	color:#7F7F7F;
+	border-bottom:1px solid #7f7f7f;
+	padding-bottom:10px;
+}
+.generalright>p{
+	margin-top:30px;
+}
+.generalright>img{
+	margin-top:30px;
+}
+.rinnerright >p:hover{
+	color:white;
+}
+
+
+/*ENDING PART 1 ENDS */
+
+
+
+
+
+
+
+
+/* ENDING PART 2 starts*/
+
+.endpart2{
+	background-color:#0F0F0F;
+	height:50px;
+}
+.lastleft>a{
+	padding:10px;
+	margin-top:10px;
+}
+.lastright{
+	margin-top:10px;
+	text-align: right;
+	color:#828273;
+}
+.lastleft>a>i{
+	margin-top:20px;
+	font-size:16px;
+	color:white;
+}
+
+/* ENDING PART 2 finish */
